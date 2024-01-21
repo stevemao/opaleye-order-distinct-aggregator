@@ -1,0 +1,11 @@
+.git
+
+.stack-work
+
+.vscode
+
+Dockerfile
+.dockerignore
+compose.yaml
+
+.github

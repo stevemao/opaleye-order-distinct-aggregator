@@ -11,8 +11,9 @@ services:
       - "5432:5432"
     volumes:
       - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
   opaleye:
     depends_on:
       - postgres
     build: .
+    environment:
+      POSTGRES_HOST: postgres
