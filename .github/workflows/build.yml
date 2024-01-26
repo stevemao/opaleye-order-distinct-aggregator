@@ -22,4 +22,4 @@ jobs:
               opaleye.cache-from=type=gha
               opaleye.cache-to=type=gha,mode=max
       - name: Build the stack
-        run: docker-compose up --exit-code-from opaleye
+        run: docker compose up --exit-code-from opaleye
