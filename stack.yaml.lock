@@ -3,7 +3,18 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    commit: b735e9af2fd36c7ea0762b2fc7a502817438c583
+    git: https://github.com/tomjaguarpaw/haskell-opaleye.git
+    name: opaleye
+    pantry-tree:
+      sha256: 743fb1b7b937e634c7caee9482f5b24a6793b711a72ba1fbb01381e4ac38f557
+      size: 11030
+    version: 0.10.2.0
+  original:
+    commit: b735e9af2fd36c7ea0762b2fc7a502817438c583
+    git: https://github.com/tomjaguarpaw/haskell-opaleye.git
 snapshots:
 - completed:
     sha256: 7b975b104cb3dbf0c297dfd01f936a4d2ee523241dd0b1ae960522b833fe3027
