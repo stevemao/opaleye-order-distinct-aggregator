@@ -38,7 +38,7 @@ packages:
 extra-deps:
 # - acme-missiles-0.3
 - git: https://github.com/tomjaguarpaw/haskell-opaleye.git
-  commit: b735e9af2fd36c7ea0762b2fc7a502817438c583
+  commit: 94f887c5716bfe7d9323ce3f384fecffee76a969
 
 # extra-deps: []
 

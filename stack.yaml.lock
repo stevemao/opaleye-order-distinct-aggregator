@@ -5,15 +5,15 @@
 
 packages:
 - completed:
-    commit: b735e9af2fd36c7ea0762b2fc7a502817438c583
+    commit: 94f887c5716bfe7d9323ce3f384fecffee76a969
     git: https://github.com/tomjaguarpaw/haskell-opaleye.git
     name: opaleye
     pantry-tree:
-      sha256: 743fb1b7b937e634c7caee9482f5b24a6793b711a72ba1fbb01381e4ac38f557
+      sha256: 6fa8240c43d17ca42767e4e555cb4844df52b7bd85180cf218ffa66eadac2e43
       size: 11030
     version: 0.10.2.0
   original:
-    commit: b735e9af2fd36c7ea0762b2fc7a502817438c583
+    commit: 94f887c5716bfe7d9323ce3f384fecffee76a969
     git: https://github.com/tomjaguarpaw/haskell-opaleye.git
 snapshots:
 - completed:
